@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\g988922\\Desktop\\FrameworkAssessment\\ScriptingToFramework.Test\\ScriptingToFramework.Test.csproj": {}
+    "C:\\Users\\automation_dvt\\Desktop\\FrameworkAssess\\ScriptingToFramework.Test\\ScriptingToFramework.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\g988922\\Desktop\\FrameworkAssessment\\Framework\\Framework.csproj": {
+    "C:\\Users\\automation_dvt\\Desktop\\FrameworkAssess\\Framework\\Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\g988922\\Desktop\\FrameworkAssessment\\Framework\\Framework.csproj",
+        "projectUniqueName": "C:\\Users\\automation_dvt\\Desktop\\FrameworkAssess\\Framework\\Framework.csproj",
         "projectName": "Framework",
-        "projectPath": "C:\\Users\\g988922\\Desktop\\FrameworkAssessment\\Framework\\Framework.csproj",
-        "packagesPath": "C:\\Users\\g988922\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\g988922\\Desktop\\FrameworkAssessment\\Framework\\obj\\",
+        "projectPath": "C:\\Users\\automation_dvt\\Desktop\\FrameworkAssess\\Framework\\Framework.csproj",
+        "packagesPath": "C:\\Users\\automation_dvt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\automation_dvt\\Desktop\\FrameworkAssess\\Framework\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\g988922\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\automation_dvt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -38,6 +38,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "Moq": {
               "target": "Package",
@@ -76,36 +77,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\g988922\\Desktop\\FrameworkAssessment\\ScriptingToFramework.Test\\ScriptingToFramework.Test.csproj": {
+    "C:\\Users\\automation_dvt\\Desktop\\FrameworkAssess\\ScriptingToFramework.Test\\ScriptingToFramework.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\g988922\\Desktop\\FrameworkAssessment\\ScriptingToFramework.Test\\ScriptingToFramework.Test.csproj",
+        "projectUniqueName": "C:\\Users\\automation_dvt\\Desktop\\FrameworkAssess\\ScriptingToFramework.Test\\ScriptingToFramework.Test.csproj",
         "projectName": "ScriptingToFramework.Test",
-        "projectPath": "C:\\Users\\g988922\\Desktop\\FrameworkAssessment\\ScriptingToFramework.Test\\ScriptingToFramework.Test.csproj",
-        "packagesPath": "C:\\Users\\g988922\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\g988922\\Desktop\\FrameworkAssessment\\ScriptingToFramework.Test\\obj\\",
+        "projectPath": "C:\\Users\\automation_dvt\\Desktop\\FrameworkAssess\\ScriptingToFramework.Test\\ScriptingToFramework.Test.csproj",
+        "packagesPath": "C:\\Users\\automation_dvt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\automation_dvt\\Desktop\\FrameworkAssess\\ScriptingToFramework.Test\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\g988922\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\automation_dvt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\g988922\\Desktop\\FrameworkAssessment\\ScriptingToFramework\\ScriptingToFramework.csproj": {
-                "projectPath": "C:\\Users\\g988922\\Desktop\\FrameworkAssessment\\ScriptingToFramework\\ScriptingToFramework.csproj"
+              "C:\\Users\\automation_dvt\\Desktop\\FrameworkAssess\\ScriptingToFramework\\ScriptingToFramework.csproj": {
+                "projectPath": "C:\\Users\\automation_dvt\\Desktop\\FrameworkAssess\\ScriptingToFramework\\ScriptingToFramework.csproj"
               }
             }
           }
@@ -118,6 +119,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -147,36 +149,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\g988922\\Desktop\\FrameworkAssessment\\ScriptingToFramework\\ScriptingToFramework.csproj": {
+    "C:\\Users\\automation_dvt\\Desktop\\FrameworkAssess\\ScriptingToFramework\\ScriptingToFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\g988922\\Desktop\\FrameworkAssessment\\ScriptingToFramework\\ScriptingToFramework.csproj",
+        "projectUniqueName": "C:\\Users\\automation_dvt\\Desktop\\FrameworkAssess\\ScriptingToFramework\\ScriptingToFramework.csproj",
         "projectName": "ScriptingToFramework",
-        "projectPath": "C:\\Users\\g988922\\Desktop\\FrameworkAssessment\\ScriptingToFramework\\ScriptingToFramework.csproj",
-        "packagesPath": "C:\\Users\\g988922\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\g988922\\Desktop\\FrameworkAssessment\\ScriptingToFramework\\obj\\",
+        "projectPath": "C:\\Users\\automation_dvt\\Desktop\\FrameworkAssess\\ScriptingToFramework\\ScriptingToFramework.csproj",
+        "packagesPath": "C:\\Users\\automation_dvt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\automation_dvt\\Desktop\\FrameworkAssess\\ScriptingToFramework\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\g988922\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\automation_dvt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {
-              "C:\\Users\\g988922\\Desktop\\FrameworkAssessment\\Framework\\Framework.csproj": {
-                "projectPath": "C:\\Users\\g988922\\Desktop\\FrameworkAssessment\\Framework\\Framework.csproj"
+              "C:\\Users\\automation_dvt\\Desktop\\FrameworkAssess\\Framework\\Framework.csproj": {
+                "projectPath": "C:\\Users\\automation_dvt\\Desktop\\FrameworkAssess\\Framework\\Framework.csproj"
               }
             }
           }
@@ -189,6 +191,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -207,7 +210,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

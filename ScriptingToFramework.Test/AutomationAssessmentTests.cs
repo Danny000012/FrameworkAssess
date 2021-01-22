@@ -11,13 +11,28 @@ namespace ScriptingToFramework.Test
         public void BeforeEach()
         {
             Driver.Init();
-            Driver.Current.Url = "http://www.way2automation.com/angularjs-protractor/banking/#/login";
+            Driver.Current.Url = "https://www.ilabquality.com/";
         }
 
         [TearDown]
         public void AfterEach()
         {
             Driver.Current.Quit();
+        }
+
+        [Test, Category("Ilab")]
+        public void Ilab_SA_Job_Application()
+        {
+            var careers = new CareersLink(Driver.Current);
+            Thread.Sleep(2000);
+            //Validate before clicking.
+            careers.GoTo();
+            Thread.Sleep(2000);
+            //Validate before clicking.
+            careers.ClickIlabCareersLink();
+            Thread.Sleep(2000);
+            careers.FillApplicationForm();
+            Assert.IsTrue(true, "");
         }
         
         [Test, Category("bank")]

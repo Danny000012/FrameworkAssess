@@ -11,9 +11,15 @@ namespace ScriptingToFramework.Pages
         {
             Map = new HeaderNavMap(driver);
         }
+
         public void GoToCustomerNameSelection()
         {
             Map.CustomerLogin.Click();
+        }
+
+        public void ClickILabNavBarMenu()
+        {
+            Map.NavBarMenu.Click();
         }
     }
 
@@ -27,5 +33,6 @@ namespace ScriptingToFramework.Pages
         }
         
         public IWebElement CustomerLogin => _driver.FindElement(By.XPath("//button[contains(text(),'Customer Login')]"));
+        public IWebElement NavBarMenu => _driver.FindElement(By.XPath("//div[@class='nav-menu-icon']"));
     }
 }

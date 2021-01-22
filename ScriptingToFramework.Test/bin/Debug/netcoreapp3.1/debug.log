@@ -177,3 +177,7 @@
 [0814/122859.428:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: The pipe has been ended. (0x6D)
 [0814/123049.644:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: The pipe has been ended. (0x6D)
 [0814/123139.858:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: The pipe has been ended. (0x6D)
+[0120/132505.421:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0120/134855.256:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0120/142651.590:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0120/144557.863:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
