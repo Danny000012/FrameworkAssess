@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 using System.Threading;
 using OpenQA.Selenium;
 
@@ -29,12 +30,24 @@ namespace ScriptingToFramework.Pages
             public IWebElement YourEmailAddress => _driver.FindElement(By.XPath("//input[@id='email']"));
             public IWebElement PhoneNumber => _driver.FindElement(By.XPath("//input[@id='phone']"));
             public IWebElement SendApplicationBtn => _driver.FindElement(By.XPath("//input[@value='Send Application']"));
+            public IWebElement ErrorText => _driver.FindElement(By.XPath("//li[text()='You need to upload at least one file.']"));
+            public IWebElement SolutionsCommandsText => _driver.FindElement(By.XPath("//div[@id='slide-7-layer-2'][text()='If your solution commands a large number of concurrent users, improper planning can bring your successful product crashing down. ']"));
         }
 
         public CareersLink GoTo()
         {
             HeaderNav.ClickILabNavBarMenu();
             return this;
+        }
+
+        public void RandonNumberGenerator()
+        {
+            Random random = new Random();
+            int randomNumber = random.Next(1000000, 2000000);
+            
+            String formatNumber = String.Format("083" + randomNumber.ToString());
+
+            Map.PhoneNumber.SendKeys(formatNumber.ToString());
         }
 
         public void ClickIlabCareersLink()
@@ -54,10 +67,8 @@ namespace ScriptingToFramework.Pages
         public void FillApplicationForm()
         {
             Map.YourName.SendKeys("Danny");
-            Thread.Sleep(2000);
             Map.YourEmailAddress.SendKeys("automationAssessment@iLABQuality.com");
-            Thread.Sleep(2000);
-            Map.PhoneNumber.SendKeys("0835687859");
+            RandonNumberGenerator();
             Map.SendApplicationBtn.Click();
         }
     }

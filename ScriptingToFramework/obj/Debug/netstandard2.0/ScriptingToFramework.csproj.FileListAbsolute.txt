@@ -10,15 +10,3 @@ c:\Users\g988922\Desktop\FrameworkAssessment\ScriptingToFramework\obj\Debug\nets
 c:\Users\g988922\Desktop\FrameworkAssessment\ScriptingToFramework\obj\Debug\netstandard2.0\ScriptingToFramework.csproj.CopyComplete
 c:\Users\g988922\Desktop\FrameworkAssessment\ScriptingToFramework\obj\Debug\netstandard2.0\ScriptingToFramework.dll
 c:\Users\g988922\Desktop\FrameworkAssessment\ScriptingToFramework\obj\Debug\netstandard2.0\ScriptingToFramework.pdb
-C:\Users\automation_dvt\Desktop\FrameworkAssess\ScriptingToFramework\bin\Debug\netstandard2.0\ScriptingToFramework.deps.json
-C:\Users\automation_dvt\Desktop\FrameworkAssess\ScriptingToFramework\bin\Debug\netstandard2.0\ScriptingToFramework.dll
-C:\Users\automation_dvt\Desktop\FrameworkAssess\ScriptingToFramework\bin\Debug\netstandard2.0\ScriptingToFramework.pdb
-C:\Users\automation_dvt\Desktop\FrameworkAssess\ScriptingToFramework\bin\Debug\netstandard2.0\Framework.dll
-C:\Users\automation_dvt\Desktop\FrameworkAssess\ScriptingToFramework\bin\Debug\netstandard2.0\Framework.pdb
-C:\Users\automation_dvt\Desktop\FrameworkAssess\ScriptingToFramework\obj\Debug\netstandard2.0\ScriptingToFramework.csprojAssemblyReference.cache
-C:\Users\automation_dvt\Desktop\FrameworkAssess\ScriptingToFramework\obj\Debug\netstandard2.0\ScriptingToFramework.AssemblyInfoInputs.cache
-C:\Users\automation_dvt\Desktop\FrameworkAssess\ScriptingToFramework\obj\Debug\netstandard2.0\ScriptingToFramework.AssemblyInfo.cs
-C:\Users\automation_dvt\Desktop\FrameworkAssess\ScriptingToFramework\obj\Debug\netstandard2.0\ScriptingToFramework.csproj.CoreCompileInputs.cache
-C:\Users\automation_dvt\Desktop\FrameworkAssess\ScriptingToFramework\obj\Debug\netstandard2.0\ScriptingToFramework.csproj.CopyComplete
-C:\Users\automation_dvt\Desktop\FrameworkAssess\ScriptingToFramework\obj\Debug\netstandard2.0\ScriptingToFramework.dll
-C:\Users\automation_dvt\Desktop\FrameworkAssess\ScriptingToFramework\obj\Debug\netstandard2.0\ScriptingToFramework.pdb

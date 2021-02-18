@@ -2,6 +2,7 @@ using NUnit.Framework;
 using System.Threading;
 using ScriptingToFramework.Pages;
 using Framework.Selenium;
+using static ScriptingToFramework.Pages.CareersLink;
 
 namespace ScriptingToFramework.Test
 {
@@ -24,15 +25,17 @@ namespace ScriptingToFramework.Test
         public void Ilab_SA_Job_Application()
         {
             var careers = new CareersLink(Driver.Current);
-            Thread.Sleep(2000);
+            var careersLinkMap = new CareersLinkMap(Driver.Current);
             //Validate before clicking.
+            
             careers.GoTo();
             Thread.Sleep(2000);
             //Validate before clicking.
             careers.ClickIlabCareersLink();
             Thread.Sleep(2000);
             careers.FillApplicationForm();
-            Assert.IsTrue(true, "");
+            string s = careersLinkMap.ErrorText.Text;
+            Assert.AreEqual(s, "You need to upload at least one file.");
         }
         
         [Test, Category("bank")]
